@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.blog-details-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.author-details {
+  display: flex;
+  justify-content: flex-start;
+}
+.details-author-name {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.author-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.blog-image {
+  display: flex;
+  justify-content: flex-start;
+  height: 80px;
+  width: 100px;
+}
+.blog-content {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
